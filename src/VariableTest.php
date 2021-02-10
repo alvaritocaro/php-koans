@@ -33,6 +33,7 @@ class VariableTest extends TestCase
 
     public function declaresAFloat()
     {
+
         $variable = new Variable();
         $floatValue = $variable -> DeclareAFloat();
 
